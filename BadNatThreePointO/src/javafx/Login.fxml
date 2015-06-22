@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.LoginController">
+   <children>
+      <TextField fx:id="username" alignment="CENTER" layoutX="139.0" layoutY="150.0" prefHeight="26.0" prefWidth="323.0" promptText="username" />
+      <TextField fx:id="password" alignment="CENTER" layoutX="139.0" layoutY="216.0" prefHeight="26.0" prefWidth="323.0" promptText="password" />
+      <Button fx:id="login" layoutX="197.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="26.0" prefWidth="207.0" text="Login" />
+      <Button fx:id="newUserButton" layoutX="197.0" layoutY="329.0" mnemonicParsing="false" onAction="#runNewUser" prefHeight="26.0" prefWidth="207.0" text="New user" />
+      <Label contentDisplay="CENTER" layoutX="139.0" layoutY="14.0" prefHeight="95.0" prefWidth="323.0" text="BadNat3.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Avenir Light" size="65.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

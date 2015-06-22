@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.NewUserController">
+   <children>
+      <TextField fx:id="email" alignment="CENTER" layoutX="177.0" layoutY="166.0" prefHeight="26.0" prefWidth="246.0" promptText="Email" />
+      <TextField fx:id="email2" alignment="CENTER" layoutX="177.0" layoutY="212.0" prefHeight="26.0" prefWidth="246.0" promptText="Repeat Email" />
+      <TextField fx:id="password" alignment="CENTER" layoutX="177.0" layoutY="257.0" prefHeight="26.0" prefWidth="246.0" promptText="Password" />
+      <Button fx:id="sendButton" layoutX="204.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleSend" prefHeight="26.0" prefWidth="193.0" text="Send" />
+      <Label layoutX="177.0" layoutY="26.0" prefHeight="75.0" prefWidth="302.0" text="New user" textFill="WHITE">
+         <font>
+            <Font name="Avenir Black" size="54.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
